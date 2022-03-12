@@ -47,7 +47,7 @@ function agregarItemAlComienzoDelArray(array, elemento) {
   // Pista: usa el método `.unshift`
   // Tu código:
   var newArray = [...array]
-  newArray.unshift(elemento)
+  newArray.unshift(elemento);
   return newArray;
 }
 
@@ -73,7 +73,7 @@ function agregarNumeros(numeros) {
   // Tu código:
   var suma = 0
   for (var i = 0; i < numeros.length; i++){
-    suma += numeros[i]
+    suma += numeros[i];
   }return suma;
 }
 
